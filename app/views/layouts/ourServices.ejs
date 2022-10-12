@@ -1,0 +1,74 @@
+<%- include("./partials/head.ejs") %>
+  <body>
+    <!--navigation  bar-->
+    <%- include("./partials/navBar.ejs") %>
+    
+    <div class="contenant">
+        <p>READY TO WEAR</p>
+    </div>
+    <div class="sectionS">
+    <input type="search" placeholder="search for"class="inputSearch" >
+    <input list="browsers" name="browser" class="listSort" placeholder="choose">
+    <datalist id="browsers">
+      <option value="oldest first">
+      <option value="newest first">
+      <option value="title descending">
+      <option value="title ascending">
+      <option value="price descending">
+      <option value="price ascending">
+    </datalist>
+    </div>
+   <!--  <img src="C:\xampp\htdocs\ecomerce\iages\3.jpg" onclick="window.location.href = 'index.html';">--> 
+      <section class="main">
+
+        <!-- Toutes les cartes -->
+        <div class="cards">
+          
+            <div class="card">
+              <img src="/iages/3.jpg" onclick="window.location.href = 'collection_details.html';">
+                
+              <div class="card-body">
+                <h4 class="title">SILK RED DRESS</h4>
+                <p>11000 DZD</p>
+              </div>
+            </div>
+            <div class="card">
+                <img src="/iages/3.jpg" onclick="window.location.href = 'collection_details.html';">
+                  
+                <div class="card-body">
+                  <h4 class="title">SILK RED DRESS</h4>
+                  <p>11000 DZD</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/iages/3.jpg" onclick="window.location.href = 'collection_details.html';">
+                  
+                <div class="card-body">
+                  <h4 class="title">SILK RED DRESS</h4>
+                  <p>11000 DZD</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/iages/3.jpg" onclick="window.location.href = 'collection_details.html';">
+                <div class="card-body">
+                  <h4 class="title">SILK RED DRESS</h4>
+                  <p>11000 DZD</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/iages/3.jpg" onclick="window.location.href = 'collection_details.html';">
+                  
+                <div class="card-body">
+                  <h4 class="title">SILK RED DRESS</h4>
+                  <p>11000 DZD</p>
+                </div>
+            </div> 
+
+            
+        <!-- Fin de toutes les cartes -->
+      </section>
+      <!-- Fin de la section principale -->
+      
+   
+  </body>
+</html>
